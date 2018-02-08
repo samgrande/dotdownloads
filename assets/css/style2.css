@@ -1,0 +1,39 @@
+body {
+  margin: 10% 5%;
+  text-align: center;
+  font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+  color: #666;
+}
+
+h1 {
+  margin: 2em 0;
+  color: #c93828;
+}
+
+p {
+  max-width: 30em;
+  margin: 2em auto;
+}
+
+h1 {
+  text-align: center;
+  overflow: hidden;
+}
+h1 span {
+  display: inline-block;
+  position: relative;
+}
+h1 span:before, h1 span:after {
+  content: "";
+  border-bottom: 2px solid #09a343;
+  width: 3em;
+  margin: 0 1.5em;
+  position: absolute;
+  bottom: .5em;
+}
+h1 span:before {
+  right: 100%;
+}
+h1 span:after {
+  left: 100%;
+}
