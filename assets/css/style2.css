@@ -1,6 +1,5 @@
 body {
   margin: 10% 5%;
-  text-align: center;
   font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
   color: #666;
 }
@@ -16,8 +15,9 @@ p {
 }
 
 h1 {
-  text-align: center;
-  overflow: hidden;
+	text-align: center;
+	overflow: hidden;
+	font-weight: lighter;
 }
 h1 span {
   display: inline-block;
