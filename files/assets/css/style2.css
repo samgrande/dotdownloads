@@ -1,6 +1,4 @@
 body {
-  margin: 10% 5%;
-  font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
   color: #666;
 }
 
@@ -20,8 +18,12 @@ h1 {
 	font-weight: lighter;
 }
 h1 span {
-  display: inline-block;
-  position: relative;
+	display: inline-block;
+	position: relative;
+	font-weight: normal;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	color: #46B6ED;
+	size: inherit;
 }
 h1 span:before, h1 span:after {
   content: "";
